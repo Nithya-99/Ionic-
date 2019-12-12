@@ -1,0 +1,53 @@
+<ion-menu [content]="content">
+    <ion-header style="height: 18%;">
+      <ion-grid>
+        <ion-row style="margin-top: 10px; margin-left: 5px;">
+          <ion-col col-3>
+            <i class="fa" aria-hidden="true" id="head-icon"><img src="../assets/imgs/user.png" width="50px"></i>
+          </ion-col>
+          <ion-col col-md-1>
+            <br>
+            <b class="br-large">Name: XYZ </b> 
+            <span>DOB: 22/02/2000</span> 
+          </ion-col>
+        </ion-row>
+        <ion-row style="margin-left: 1em;">
+          Email-id
+        </ion-row>
+      </ion-grid>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <button ion-item>
+          <i class="fa fa-home" aria-hidden="true" id="icon" style="color: #c93032;"></i> Home
+        </button>
+        <button ion-item>
+          <i class="fa" aria-hidden="true" id="icon" style="color: #c93032;"><img src="../assets/imgs/gvwala_logo.jpg" width="18px"></i> About Us
+        </button>
+        <button ion-item>
+          <i class="fa" aria-hidden="true" id="icon"><img src="../assets/imgs/gift.png" width="18px"></i> Shop By Categories
+        </button>
+        <button ion-item>
+          <i class="fa" aria-hidden="true" id="icon"><img src="../assets/imgs/star.png" width="18px"></i> Wall Feed
+        </button>
+        <button ion-item>
+          <i class="fa" aria-hidden="true" id="icon"><img src="../assets/imgs/clap.png" width="18px"></i> Wall of Fame
+        </button>
+        <button ion-item>
+          <i class="fa" aria-hidden="true" id="icon"><img src="../assets/imgs/trophy.png" width="18px"></i> Go Social
+        </button>
+        <button ion-item>
+          <i class="fa" aria-hidden="true" id="icon"><img src="../assets/imgs/gift.png" width="18px"></i> Gift
+        </button>
+        <button ion-item>
+          <i class="fas" id="icon"><img src="../assets/imgs/brainstorm.png" width="18px"></i> Ideastrom
+        </button>
+        <button ion-item>
+          <i class="fas" id="icon"><img src="../assets/imgs/poll.png" width="18px"></i> Poll
+        </button>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  
+  <ion-nav id="nav" #content [root]="rootPage"></ion-nav>
+

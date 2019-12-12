@@ -1,0 +1,21 @@
+page-startpage {
+    
+    #skip{
+        position: fixed;
+        bottom: 3px;
+    }
+    #skip{
+        text-decoration: none;color: #a3a3a3;
+    }
+    #signin{
+        text-decoration: none;color: #c93032;
+    }
+    #newuser{
+        text-decoration: none;color: #aaaaaa;
+    }
+    p {font-size:0; /* Fixes inline block spacing */  }
+    span { width:50%; display:inline-block; }
+    span.align-right { text-align:right; }
+
+    span a { font-size:16px; }
+}
