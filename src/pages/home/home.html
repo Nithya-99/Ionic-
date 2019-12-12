@@ -33,8 +33,13 @@
 
 
 <ion-content style="margin-top: 10px ;">
-  
-  <div>
+    <ion-tabs>
+        <ion-tab  tabIcon="home" tabTitle="Water" [root]="home1"><i class="fa"><img src="../assets/imgs/home.png"><p>Home</p></i></ion-tab>
+        <ion-tab tabIcon="star" tabTitle="Life" [root]="tab2"></ion-tab>
+        <ion-tab tabIcon="clap" tabTitle="Fire" [root]="tab3"></ion-tab>
+        <ion-tab tabIcon="magnet" tabTitle="Force" [root]="tab4"></ion-tab>
+    </ion-tabs>
+  <!-- <div>
     <ion-segment [(ngModel)]="segment">
       <ion-segment-button value="home">
         <i class="fa"><img src="../assets/imgs/home.png"><p>Home</p></i>
@@ -61,23 +66,7 @@
         <i class="fa"><img src="../assets/imgs/poll.png" ><p>Poll</p></i>
       </ion-segment-button>
     </ion-segment>
-  </div>
+  </div> -->
 
-  <div padding style="height: 200px;">
-      <ion-slides pager>
-
-          <ion-slide id='slider'>
-            
-          </ion-slide>
-        
-          <ion-slide style="background-color: blue">
-            <h2>Slide 2</h2>
-          </ion-slide>
-        
-          <ion-slide style="background-color: red">
-            <h2>Slide 3</h2>
-          </ion-slide>
-        
-        </ion-slides>
-  </div>
+  
 </ion-content>

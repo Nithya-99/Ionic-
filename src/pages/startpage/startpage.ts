@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SigninPage } from '../signin/signin';
+import { SignupPage } from '../signup/signup';
 
 /**
  * Generated class for the StartpagePage page.
@@ -17,6 +18,9 @@ import { SigninPage } from '../signin/signin';
 export class StartpagePage {
   signin(){
     this.navCtrl.push(SigninPage);
+  }
+  signup(){
+    this.navCtrl.push(SignupPage);
   }
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

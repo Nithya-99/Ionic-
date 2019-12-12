@@ -9,6 +9,7 @@ import { SigninPage } from '../pages/signin/signin';
 import { HomePage } from '../pages/home/home';
 import { StartpagePage } from '../pages/startpage/startpage';
 import { SignupPage } from '../pages/signup/signup';
+import { Home1Page } from '../pages/home1/home1';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,14 @@ import { SignupPage } from '../pages/signup/signup';
     SigninPage,
     HomePage,
     StartpagePage,
-    SignupPage
+    SignupPage,
+    Home1Page
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp,{
+      tabsPlacement:'top',
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -28,7 +32,8 @@ import { SignupPage } from '../pages/signup/signup';
     SigninPage,
     HomePage,
     StartpagePage,
-    SignupPage
+    SignupPage,
+    Home1Page
   ],
   providers: [
     StatusBar,

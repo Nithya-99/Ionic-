@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Home1Page } from '../home1/home1';
+
 
 /**
  * Generated class for the HomePage page.
@@ -15,6 +17,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class HomePage {
 
+  home1 = Home1Page;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
