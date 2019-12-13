@@ -14,6 +14,52 @@
 
 
 <ion-content padding>
+    <ion-card>
+      <img src="../assets/imgs/gift_card.jpg"/>
+      
+    </ion-card>
+    
+    <ion-card>
+      <ion-card-content>
+          <ion-list>
+            <ion-item>
+              <ion-label>Select Gift Template</ion-label>
+              <ion-select [(ngModel)]="giftTemplate">
+                <ion-option value="nes">NES</ion-option>
+                <ion-option value="n64">Nintendo64</ion-option>
+                <ion-option value="ps">PlayStation</ion-option>
+                <ion-option value="genesis">Sega Genesis</ion-option>
+                <ion-option value="saturn">Sega Saturn</ion-option>
+                <ion-option value="snes">SNES</ion-option>
+              </ion-select>
+            </ion-item>
+          </ion-list>
+      </ion-card-content>
+      
+    </ion-card>
+    <ion-card>
+
+        <!-- <ion-card-header>
+          Card Header
+        </ion-card-header> -->
+      
+        <ion-card-content>
+            <ion-list>
+                <ion-item>
+                  <ion-label>Select Gift Type</ion-label>
+                  <ion-select [(ngModel)]="giftTemplate">
+                    <ion-option value="nes">NES</ion-option>
+                    <ion-option value="n64">Nintendo64</ion-option>
+                    <ion-option value="ps">PlayStation</ion-option>
+                    <ion-option value="genesis">Sega Genesis</ion-option>
+                    <ion-option value="saturn">Sega Saturn</ion-option>
+                    <ion-option value="snes">SNES</ion-option>
+                  </ion-select>
+                </ion-item>
+              </ion-list>
+        </ion-card-content>
+      
+      </ion-card>
   <ion-card>
 
     <!-- <ion-card-header>
@@ -36,4 +82,7 @@
     </ion-card-content>
   
   </ion-card>
+  <div class='btn'>
+    <button ion-button>Send</button>
+  </div>
 </ion-content>
