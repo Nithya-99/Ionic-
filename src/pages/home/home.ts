@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Home1Page } from '../home1/home1';
+import { GosocialPage } from '../gosocial/gosocial';
+import { GiftPage } from '../gift/gift';
 
 
 /**
@@ -18,6 +20,8 @@ import { Home1Page } from '../home1/home1';
 export class HomePage {
 
   home1 = Home1Page;
+  gosocial = GosocialPage;
+  gift = GiftPage;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

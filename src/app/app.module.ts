@@ -10,6 +10,8 @@ import { HomePage } from '../pages/home/home';
 import { StartpagePage } from '../pages/startpage/startpage';
 import { SignupPage } from '../pages/signup/signup';
 import { Home1Page } from '../pages/home1/home1';
+import { GosocialPage } from '../pages/gosocial/gosocial';
+import { GiftPage } from '../pages/gift/gift';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { Home1Page } from '../pages/home1/home1';
     HomePage,
     StartpagePage,
     SignupPage,
-    Home1Page
+    Home1Page,
+    GosocialPage,
+    GiftPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,9 @@ import { Home1Page } from '../pages/home1/home1';
     HomePage,
     StartpagePage,
     SignupPage,
-    Home1Page
+    Home1Page,
+    GosocialPage,
+    GiftPage
   ],
   providers: [
     StatusBar,
