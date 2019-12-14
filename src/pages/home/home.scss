@@ -6,10 +6,34 @@ page-home {
         background-position: center;
         background-size: cover;
     }
-    #card{
-        float: left;
-        display: block;
-        clear: both;
+   
+    .button-md {
+        border-radius: 0px;
+        background-color: #c93032;
+        text-transform: capitalize;
     }
+    #shop.col{
+        top: 7px;
+        
+    }
+    #card{
+       display: block;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+    [col-8]{
+        width:69%;
+    }
+    .col{
+        padding: 0px;
+        margin: 0px;
+    }
+    .arrow{
+        
+        vertical-align: middle;
+    }
+    // .row{
+    //     display: block;
+    // }
     
 }

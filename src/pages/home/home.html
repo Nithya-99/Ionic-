@@ -17,7 +17,44 @@
         
         </ion-slides>
   </div>
-<ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <ion-row>
+    <ion-col text-left col-2>
+      <button ion-button small class="arrow"><</button>
+    </ion-col>
+    <ion-col text-center col-8>
+      <ion-card text-center id="card">
+        <ion-card-header>
+          <b>Point Based Rewards Platform</b>
+        </ion-card-header>
+        <ion-card-content>
+          100+ Gift Cards | 10+ Categories
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col text-right col-2>
+      <button ion-button small>></button>
+    </ion-col>
+    <!-- <ion-col col-7 text-center>
+      <ion-card text-center>
+        <ion-card-header>
+          <b>Point Based Rewards Platform</b>
+        </ion-card-header>
+        <ion-card-content>
+          100+ Gift Cards | 10+ Categories
+        </ion-card-content>
+      </ion-card>
+    </ion-col> -->
+
+    <!-- <ion-col col-2 text-right>
+      <button (click)="this.Slides.slidePrev()"> 
+        <ion-icon name="arrow-forward"></ion-icon> 
+      </button>
+    </ion-col> -->
+
+  </ion-row>
+  
+  
+<ion-searchbar placeholder="Search for gift cards" (ionInput)="getItems($event)"></ion-searchbar>
 <ion-list>
   <ion-item *ngFor="let item of items">
     {{ item }}
@@ -26,16 +63,27 @@
 <ion-card>
 
   <ion-card-header>
-    Shop By Category
+    <ion-row>
+      <ion-col id="shop">
+        <b>Shop By Category</b>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button small>View All</button>
+      </ion-col>
+    </ion-row>
+     
   </ion-card-header>
 
-  <ion-card-content id='card'>
-    <ion-card *ngFor="let card of cardList; let i=index">   
-      <ion-card-content>
-        
-      </ion-card-content>
+  <ion-card-content>
+    <ion-row >
+      <ion-col col-4 *ngFor="let card of cardList; let i=index">
+        <ion-card >
+          <img src="../assets/imgs/mobile.png"/>
+        </ion-card>
+      </ion-col>
+    </ion-row>
     
-    </ion-card>
+    
   </ion-card-content>
 
 </ion-card>
