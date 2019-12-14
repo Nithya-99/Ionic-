@@ -16,7 +16,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'home.html',
 })
 export class HomePage {
-  cardList:any=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  cardList:any=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
