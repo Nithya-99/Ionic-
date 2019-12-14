@@ -1,0 +1,71 @@
+<ion-header>
+  <ion-navbar color="white">
+    <ion-title>
+      <ion-row align-items-center>
+        <ion-col>
+          <ion-buttons left>
+            <button ion-button icon-only menuToggle>
+              <!-- <ion-icon name="menu"></ion-icon> -->
+              <img src="../assets/imgs/toggler.png" style="width: 40px;">
+            </button>
+          </ion-buttons>
+        </ion-col>
+        <ion-col text-center>
+          <img src="../assets/imgs/gvwala_logo.png" id='logo'>
+        </ion-col>
+        <ion-col text-right>
+          <ion-icon name="ios-cart-outline"></ion-icon>
+          <ion-icon name="md-notifications"></ion-icon>
+          <ion-icon name="md-search"></ion-icon>
+        </ion-col>
+      </ion-row>
+
+    </ion-title>
+    
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content style="margin-top: 10px ;">
+    <ion-tabs>
+        <ion-tab tabIcon="custom-home" tabTitle="Home" [root]="home" ></ion-tab>
+        <ion-tab tabIcon="custom-star" tabTitle="Wall Feed" [root]="gosocial"></ion-tab>
+        <ion-tab tabIcon="custom-clap" tabTitle="Wall Of Fame" [root]="walloffame"></ion-tab>
+        <ion-tab tabIcon="custom-trophy" tabTitle="Go Social" [root]="gosocial"></ion-tab>
+        <ion-tab tabIcon="custom-gift" tabTitle="Gift" [root]="gift" ></ion-tab>
+        <ion-tab tabIcon="custom-gift" tabTitle="Wish" [root]="wish"></ion-tab>
+        <ion-tab tabIcon="custom-brainstorm" tabTitle="Ideastorm" [root]="ideastorm"></ion-tab>
+        <ion-tab tabIcon="custom-poll" tabTitle="Poll" [root]="poll"></ion-tab>
+    </ion-tabs>
+
+  <!-- <div>
+    <ion-segment [(ngModel)]="segment">
+      <ion-segment-button value="home">
+        <i class="fa"><img src="../assets/imgs/home.png"><p>Home</p></i>
+      </ion-segment-button>
+      <ion-segment-button value="wallfeed">
+        <i class="fa"><img src="../assets/imgs/star.png"><p>Wall Feed</p></i>
+      </ion-segment-button>
+      <ion-segment-button value="walloffame">
+        <i class="fa"><img src="../assets/imgs/clap.png"><p style="font-size: 6.5px;margin-block-start: 0.7em;">Wall Of Fame</p></i>
+      </ion-segment-button>
+      <ion-segment-button value="gosocial">
+        <i class="fa"><img src="../assets/imgs/trophy.png" style="filter: hue-rotate(0deg);"><p>Go Social</p></i> 
+      </ion-segment-button>
+      <ion-segment-button value="gift">
+        <i class="fa"><img src="../assets/imgs/gift.png"><p>Gift</p></i>
+      </ion-segment-button>
+      <ion-segment-button value="wish">
+        <i class="fa"><img src="../assets/imgs/gift.png"><p>Wish</p></i>
+      </ion-segment-button>
+      <ion-segment-button value="ideastorm">
+        <i class="fa"><img src="../assets/imgs/brainstorm.png"><p>Ideastorm</p></i>
+      </ion-segment-button>
+      <ion-segment-button value="poll">
+        <i class="fa"><img src="../assets/imgs/poll.png" ><p>Poll</p></i>
+      </ion-segment-button>
+    </ion-segment>
+  </div> -->
+
+  
+</ion-content>

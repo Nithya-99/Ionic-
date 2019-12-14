@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Home1Page } from '../home1/home1';
-import { GosocialPage } from '../gosocial/gosocial';
-import { GiftPage } from '../gift/gift';
+
 
 
 /**
@@ -18,10 +16,8 @@ import { GiftPage } from '../gift/gift';
   templateUrl: 'home.html',
 })
 export class HomePage {
-
-  home1 = Home1Page;
-  gosocial = GosocialPage;
-  gift = GiftPage;
+  cardList:any=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+ 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

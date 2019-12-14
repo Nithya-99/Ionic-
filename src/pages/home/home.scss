@@ -1,137 +1,15 @@
 page-home {
-    ion-app.md [padding] {
-        padding: 0px;
+    #slider{
+        background:url('../assets/imgs/gvwala_slider1.jpg');
+        background-color: #c93032;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
-    ion-title{
-        #logo{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 40px;
-        }
-        ion-icon{
-            margin-right: 10px;
-        }
-    }
-    .fa{
-        //font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: black;
-        
-        img{
-            height: 25px;
-            width: 25px;
-        } 
-        
-    }
-    
-    .segment-button.segment-activated{
-       
-        .fa{
-            img{
-                height: 25px;
-                width: 25px;
-            }            
-            color: #c93032;
-        }
-    }
-    .segment-md .segment-button.segment-activated {
-        border-color: #c93032;
-        opacity: 1;
-    }
-    p{
-        text-transform: capitalize;
-        padding: 0px;
-        font-size: 7.5px;
-    }
-    p {
+    #card{
+        float: left;
         display: block;
-        margin-block-start: 0.5em;
-        margin-block-end: 0em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
+        clear: both;
     }
     
-    .tabs-md .tab-button-text {
-        font-size: 0.76rem;
-        text-transform: none;
-        color: #000000;
-    }
-    .tabs-md .tab-button[aria-selected=true] .tab-button-text{
-        font-size: 0.66rem;
-        text-transform: none;
-        color: #c93032;
-        
-    }
-    ion-segment{
-        margin: 0px;
-    }
-    ion-icon {
-        &[class*="custom-"] {
-            margin: 0 5px 0 0;
-            vertical-align: middle;
-            $sz: 20px;
-            width: $sz;
-            height: $sz;
-        } // custom icons
-        &[class*="home"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/home_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of active
-        &[class*="home"][ng-reflect-is-active="false"] {
-            background: url("../assets/imgs/home.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-        &[class*="star"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/star_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of active
-        &[class*="star"][ng-reflect-is-active="false"] {
-            background: url("../assets/imgs/star.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-        &[class*="clap"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/clap_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of active
-        &[class*="clap"][ng-reflect-is-active="false"] {
-            background: url("../assets/imgs/clap.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-        &[class*="trophy"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/trophy_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of active
-        &[class*="trophy"][ng-reflect-is-active="false"] {
-            background: url("../assets/imgs/trophy.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-        &[class*="trophy"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/trophy_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of active
-        &[class*="gift"][ng-reflect-is-active="false"] {
-            background: url("../assets/imgs/gift.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-        &[class*="gift"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/gift_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of active
-        &[class*="brainstorm"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/brainstorm_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-        &[class*="brainstorm"][ng-reflect-is-active="false"] {
-            background: url("../assets/imgs/brainstorm.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-        &[class*="poll"][ng-reflect-is-active="true"] {
-            background: url("../assets/imgs/poll_red.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of active
-        &[class*="poll"][ng-reflect-is-active="false"] {
-            background: url("../assets/imgs/poll.png") no-repeat 50% 50%;
-            background-size: contain;
-        }//in case of inactive
-    }
 }

@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { GosocialPage } from '../gosocial/gosocial';
+import { GiftPage } from '../gift/gift';
 import { HomePage } from '../home/home';
 
+
 /**
- * Generated class for the Home1Page page.
+ * Generated class for the MainPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,16 +14,19 @@ import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
-  selector: 'page-home1',
-  templateUrl: 'home1.html',
+  selector: 'page-main',
+  templateUrl: 'main.html',
 })
-export class Home1Page {
-  
+export class MainPage {
+  home = HomePage;
+  gosocial = GosocialPage;
+  gift = GiftPage;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad Home1Page');
+    console.log('ionViewDidLoad MainPage');
   }
 
 }

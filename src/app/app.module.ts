@@ -9,9 +9,9 @@ import { SigninPage } from '../pages/signin/signin';
 import { HomePage } from '../pages/home/home';
 import { StartpagePage } from '../pages/startpage/startpage';
 import { SignupPage } from '../pages/signup/signup';
-import { Home1Page } from '../pages/home1/home1';
 import { GosocialPage } from '../pages/gosocial/gosocial';
 import { GiftPage } from '../pages/gift/gift';
+import { MainPage } from '../pages/main/main';
 
 @NgModule({
   declarations: [
@@ -20,9 +20,9 @@ import { GiftPage } from '../pages/gift/gift';
     HomePage,
     StartpagePage,
     SignupPage,
-    Home1Page,
     GosocialPage,
-    GiftPage
+    GiftPage,
+    MainPage,
   ],
   imports: [
     BrowserModule,
@@ -37,9 +37,9 @@ import { GiftPage } from '../pages/gift/gift';
     HomePage,
     StartpagePage,
     SignupPage,
-    Home1Page,
     GosocialPage,
-    GiftPage
+    GiftPage,
+    MainPage,
   ],
   providers: [
     StatusBar,
