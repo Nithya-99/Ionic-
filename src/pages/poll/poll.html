@@ -1,0 +1,26 @@
+<ion-content padding>
+  <ion-card *ngFor="let card of cardlist; let i=index">
+    <ion-card-header style="text-align: center; padding: 5px;">
+      <ion-row>
+        <ion-col col-4>
+          <p id="text1">Posted on 2/02/2018</p>
+        </ion-col>
+        <ion-col col-8>
+          <p id="text1" style="margin-block-start: 0em;margin-block-end: 0em; text-align: right;">1/5</p>
+        </ion-col>
+      </ion-row>
+      <img src="../assets/imgs/gvwala_logo.png" id="logo">
+    </ion-card-header>
+    <ion-card-content >
+      <h3 id="header1">What do you think about our new system?</h3>
+      
+      <ion-item *ngFor="let item of options; let i=index">
+        <ion-label style="margin: 0px 0px 0px;">{{item}}</ion-label>
+        <ion-checkbox item-left [ngModel]="checkedIdx == i" (ngModelChange)="$event ? checkedIdx = i : checkedIdx = -1"></ion-checkbox>
+      </ion-item>
+      <div style="text-align: center;">
+        <button ion-button id="button1">Submit</button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
