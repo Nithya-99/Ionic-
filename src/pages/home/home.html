@@ -19,20 +19,18 @@
   </div>
   <ion-row>
     <ion-col text-left col-2>
-      <button ion-button small class="arrow"><</button>
+      <button ion-button small class="btn"><ion-icon name="ios-arrow-back-outline"></ion-icon></button>
     </ion-col>
     <ion-col text-center col-8>
       <ion-card text-center id="card">
-        <ion-card-header>
+        <ion-card-content class="text">
           <b>Point Based Rewards Platform</b>
-        </ion-card-header>
-        <ion-card-content>
           100+ Gift Cards | 10+ Categories
         </ion-card-content>
       </ion-card>
     </ion-col>
     <ion-col text-right col-2>
-      <button ion-button small>></button>
+      <button ion-button small class="btn"><ion-icon name="ios-arrow-forward-outline"></ion-icon></button>
     </ion-col>
     <!-- <ion-col col-7 text-center>
       <ion-card text-center>
@@ -60,8 +58,8 @@
     {{ item }}
   </ion-item>
 </ion-list>
-<ion-card>
 
+<ion-card>
   <ion-card-header>
     <ion-row>
       <ion-col id="shop">

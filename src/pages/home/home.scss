@@ -1,6 +1,6 @@
 page-home {
     #slider{
-        background:url('../assets/imgs/gvwala_slider1.jpg');
+        background:url('../assets/imgs/sliderimage.png');
         background-color: #c93032;
         background-repeat: no-repeat;
         background-position: center;
@@ -12,6 +12,14 @@ page-home {
         background-color: #c93032;
         text-transform: capitalize;
     }
+    .btn {
+        border-radius: 100%;
+        background-color: #ffffff;
+        text-transform: capitalize;
+        color: #c93032;
+        border:1.5px solid #c93032;
+        top: 30%;
+    }
     #shop.col{
         top: 7px;
         
@@ -20,6 +28,13 @@ page-home {
        display: block;
        margin-left: 0px;
        margin-right: 0px;
+       width: 100%;
+       left: 0%;
+       right: 0%;
+       height: 50px;
+    }
+    .text{
+        font-size: 12px;
     }
     [col-8]{
         width:69%;

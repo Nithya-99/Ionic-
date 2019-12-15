@@ -14,5 +14,23 @@
 
 
 <ion-content padding>
-
+  <ion-card *ngFor="let card of cardList; let i=index">
+    <img src="../assets/imgs/employee.png"/>
+    <ion-card-content>
+      <ion-card-title text-center>
+       Employee of the Month
+      </ion-card-title>
+      <p text-center>
+        "Message"
+      </p>
+      <ion-row>
+        <ion-col col-6 text-left class="base">
+          Posted by Admin
+        </ion-col>
+        <ion-col col-6 text-right class="base">
+          12/04/2019
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

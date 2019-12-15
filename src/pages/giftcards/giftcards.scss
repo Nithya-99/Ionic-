@@ -1,0 +1,36 @@
+page-giftcards {
+    .segment-md .segment-button.segment-activated {
+        border-color: #c93032;
+        opacity: 1;
+        height: 25px;
+        p{
+            color: #c93032;
+            font-size: 9.8px;
+            font-weight: bold;
+        }
+    }
+    .segment-md .segment-button{
+        height: 25px;
+        p{
+            top: 50%;
+            font-size: 9.8px;
+            font-weight: bold;
+        }
+    }
+   
+    .card-header-md {
+        padding: 10px;
+    }
+    .gift_btn{
+        border-radius: 0px;
+        background-color: #c93032;
+        text-transform: capitalize;
+    }
+    .gift_btn.activated{
+        border-radius: 0px;
+        border:1px solid #c93032;
+        color:#c93032;
+        background-color: #ffffff;
+        text-transform: capitalize;
+    }
+}
