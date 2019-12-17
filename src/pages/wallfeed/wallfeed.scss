@@ -1,36 +1,58 @@
 page-wallfeed {
-    #top{
-      background-color: #f0f0f0;
-      margin: 0px;
-    }
-  
-    #firstrow{
-      margin: 0em;
-      padding: 0em;
-      padding-top: 5px;
-    }
-  
-    ion-item.item {
-      border-radius: 25px;
-      background-color: rgba(255, 255, 255, 0.4);
-      margin-bottom: 1px;
-      width: 100%;
-      .label {
-        width: 10%;
-        color: rgba(0, 0, 0, 0.6);
-        font-size: 1.2em;
-      }
-    }
-  
-    #button1{
-      background-color:#ffffff;
-      font-weight: lighter;
-      text-transform: capitalize;
-      padding: 10px;
-    }
-  
-    #icon1{
-      display: inline-block;
-      margin: 10px 4px;
+  #top{
+    background-color: #f0f0f0;
+    margin: 0px;
+  }
+
+  #head-icon{
+    margin-top: 20px;
+  }
+  #firstrow{
+    margin: 0em;
+    padding: 0em;
+    padding-top: 5px;
+  }
+
+  ion-item.item {
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 1px;
+    width: 100%;
+    .label {
+      width: 10%;
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 1.2em;
     }
   }
+
+  #button1{
+    background-color:#ffffff;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+
+  #icon1{
+    display: inline-block;
+    margin: 10px 4px;
+  }
+
+  #img1{
+    height: 50px;
+    width: 50px;
+  }
+
+  #btntext{
+    text-transform: capitalize;
+    color: gray;
+  }
+
+  // .button-clear-md{
+  //   // color: red;
+  //   border-color: red;
+  // }
+  div.A{
+    // position: absolute;
+    text-align: right;
+  }
+}

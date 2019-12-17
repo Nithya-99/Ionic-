@@ -11,3 +11,5 @@ import { WallfeedPage } from './wallfeed';
   ],
 })
 export class WallfeedPageModule {}
+
+
