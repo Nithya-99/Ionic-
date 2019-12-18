@@ -12,6 +12,10 @@ import { SignupPage } from '../pages/signup/signup';
 import { GosocialPage } from '../pages/gosocial/gosocial';
 import { GiftPage } from '../pages/gift/gift';
 import { MainPage } from '../pages/main/main';
+import { GiftcardsPage } from '../pages/giftcards/giftcards';
+import { WallfamePage } from '../pages/wallfame/wallfame';
+import { WallfeedPage } from '../pages/wallfeed/wallfeed';
+import { PollPage } from '../pages/poll/poll';
 
 @NgModule({
   declarations: [
@@ -23,6 +27,10 @@ import { MainPage } from '../pages/main/main';
     GosocialPage,
     GiftPage,
     MainPage,
+    GiftcardsPage,
+    WallfamePage,
+    WallfeedPage,
+    PollPage
   ],
   imports: [
     BrowserModule,
@@ -40,6 +48,10 @@ import { MainPage } from '../pages/main/main';
     GosocialPage,
     GiftPage,
     MainPage,
+    GiftcardsPage,
+    WallfamePage,
+    WallfeedPage,
+    PollPage
   ],
   providers: [
     StatusBar,
