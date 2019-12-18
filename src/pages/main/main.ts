@@ -3,6 +3,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { GosocialPage } from '../gosocial/gosocial';
 import { GiftPage } from '../gift/gift';
 import { HomePage } from '../home/home';
+import { GiftcardsPage } from '../giftcards/giftcards';
+import { WallfamePage } from '../wallfame/wallfame';
+import { WallfeedPage } from '../wallfeed/wallfeed';
+import { PollPage } from '../poll/poll';
+
+
 
 
 /**
@@ -21,6 +27,10 @@ export class MainPage {
   home = HomePage;
   gosocial = GosocialPage;
   gift = GiftPage;
+  giftcards = GiftcardsPage;
+  wallfeed = WallfeedPage;
+  walloffame = WallfamePage;
+  poll = PollPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
